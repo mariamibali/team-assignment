@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+h1,
+h3,
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: auto;
+}
+.little-p::before {
+  content: "- ";
+}
+.little-p {
+  color: #2e7af4;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+button {
+  width: 167px;
+  height: 46px;
+  background-color: #2e7af4;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+/* ketevani */
+
+/* mariami */
+
+/* paata */
