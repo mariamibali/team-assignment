@@ -298,7 +298,57 @@ article a {
   margin: 0;
   border: none;
 }
-
+footer {
+  background: #1e2734;
+  color: #e1e1e1;
+  margin-top: 100px;
+  padding: 40px;
+  max-height: 389px;
+  height: 100%;
+}
+footer a {
+  color: #e1e1e1;
+  font-family: "Lato", sans-serif;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+footer ul,
+.get-in-touch {
+  display: grid;
+  gap: 15px;
+}
+footer ul a {
+  font-weight: 500;
+}
+footer li {
+  list-style: none;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.footer-container div:nth-of-type(1) {
+  max-width: 280px;
+}
+.social-media img {
+  width: 36px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container div:last-child input {
+  width: 251px;
+  height: 50px;
+}
+.rights {
+  text-align: center;
+  margin-top: 60px;
+}
 /* mariami */
 
 /* paata */
