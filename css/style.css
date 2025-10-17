@@ -266,10 +266,6 @@ nav ul li a:hover {
   transition: transform 0.3s;
 }
 
-.team-card img:hover {
-  transform: scale(1.05);
-}
-
 .team-card h4 {
   margin-top: 10px;
   font-size: 16px;
